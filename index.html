@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!--meta pra linkar o css-->
+    <title>TREINO</title>
+</head>
+<body>
+    <div class="content">
+
+        <div class="slides">
+
+            <input class="input" type="radio" name="slide" id="slide1" checked> <!--este está com o CHECKED para toda vez voltar no inicio das imgs, para o loop ser infinito-->
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">  
+            <input class="input" type="radio" name="slide" id="slide4">
+            <input class="input" type="radio" name="slide" id="slide5">
+
+
+        <div class="slide s1">
+            <img id="Imagem1" src="1.jpg" alt="">    <!--cada div é uma imagem, para facilitar na hora de fazer o transition do carrossel, vendo o css fica mais facil de entender-->
+        </div>
+
+        <div class="slide">
+            <img id="Imagem2" src="2.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img id="Imagem3" src="3.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img id="Imagem4" src="4.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img id="Imagem5" src="5.jpg" alt="">
+        </div>
+        </div>
+    </div>
+
+    <div class="navigation">  <!--div botozin que fica em baixo do carrossel-->
+
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+
+    </div>
+
+    <script src="./script.js"></script>  <!--jeito certo de anexar o script no font html-->
+    
+</body>
+</html>
